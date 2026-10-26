@@ -40,6 +40,9 @@ a = 1
 mul = 1
 while a <= 10:
     mul = userinput * a
-    print(f'{userinput} * {a} = {mul}')
+    # print(f'{userinput} * {a} = {mul}')
     a += 1
+
+for x in range(0, 20, 2):
+    print(x)
 
