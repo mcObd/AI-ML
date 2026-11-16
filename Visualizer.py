@@ -33,6 +33,7 @@ from bokeh.plotting import figure, show
 #              )
 # fig.show()
 
+
 # # BOKEH
 p = figure(title='Sales Trend', x_axis_label='Month', y_axis_label='Sales')
 p.line([1,2,3,4], [10,25,15,30],line_width=2)
