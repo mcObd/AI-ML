@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
-import pandas as pd
 import seaborn as sns
+import pandas as pd
+
 month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 sales = [200, 220, 250, 270, 290, 310, 330, 350, 370, 390, 410, 430]
 plt.plot(month, sales)
